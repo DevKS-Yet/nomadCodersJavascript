@@ -7,6 +7,7 @@ function getClock() {
     const seconds = String(date.getSeconds()).padStart(2, "0");
     clock.innerText = `${hours}:${minutes}:${seconds}`;
 }
+// padStart 펑션을 알아두면 아이디 같은 것을 추천할 때 좋을듯
 
 getClock();
 setInterval(getClock, 1000);
