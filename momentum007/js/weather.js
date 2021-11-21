@@ -1,6 +1,7 @@
 const weather = document.querySelector("#weather span:first-child");
 const city = document.querySelector("#weather span:last-child");
-const API_KEY = "a4776aab5938eb406e50acd5bfe76d9d";
+const API_KEY = "";
+// openWeather에서 받은 api를 
 
 function onGeoOk(position) {
     const lat = position.coords.latitude;
